@@ -1,0 +1,56 @@
+Pushing Code to the GitHub 
+------------------------------------
+
+$ mkdir facebook
+$ cd facebook
+$ pwd
+$ git init 
+$ vi DButils.java
+$ git add .
+$ git commit -m "First Commit"
+
+$ git remote -v
+$ git remote add origin "https://github.com/ravi.git"
+$ git push -u origin master
+
+
+Configure Credentials
+-------------------------------------
+$ git config --global user.name "ravikumar"
+$ git config --global user.email "ravikumar@gmail.com"
+$ git congig --global -list
+
+
+I want to add Another file in Same Repo
+---------------------------------------------
+$ ls
+$ cd facebook 
+$ vi naniutils,java
+$ git add .
+$ git commit -m "2nd commit"
+$ git status
+$ git log 
+$ git push -u origin master
+
+Now I want to update existing file
+-----------------------------------------
+
+$ Vi Dbutils.java
+$ git add .
+$ git commit -a -m "new file" ----> Importamt Command 
+$ git status
+$ git push -u origin master 
+
+Log Commands
+----------------------
+git log --->we can see the commit ID's
+git log -2 ----> we can see the latest 2 commit id's
+git log --onlins ---> It will be going to display in oneline insted of detail info
+
+Show Command
+---------------
+git show  commit id
+git show  --pretty = "commitid" --name-only commitId
+
+
+
