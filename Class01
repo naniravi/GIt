@@ -61,4 +61,12 @@ git show  commit id
 git show  --pretty = "commitid" --name-only commitId
 
 
+re-adding, the remote URL/ Remote the Remote URl
+---------------------------------------------------------
+git remote set-url origin git://new.url.here
+
+
+
+
+
 
