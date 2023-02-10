@@ -1,0 +1,19 @@
+1.I want to delete/remove  the files 
+
+$git clean -n 
+$git clean -f 
+$git status
+
+If you want to delete specific file name
+
+$ git clean -f <FileName>
+
+2.I want to get back  the all/particular  files  from staging Area to Working area 
+
+$ git reset <filename>
+
+$ git reset 
+
+3.if you have done bad commit id we use below command 
+
+$ git revert <CommitID>
